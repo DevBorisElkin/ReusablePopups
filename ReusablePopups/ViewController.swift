@@ -13,7 +13,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        view.backgroundColor = .brown
+        //view.backgroundColor = .brown
     }
 }
 
@@ -23,7 +23,7 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        view.backgroundColor = .magenta
+        //view.backgroundColor = .magenta
     }
 }
 
