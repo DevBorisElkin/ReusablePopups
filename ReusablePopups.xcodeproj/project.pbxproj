@@ -15,6 +15,8 @@
 		52C9A5A4285F3B62005741E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C9A5A2285F3B62005741E2 /* LaunchScreen.storyboard */; };
 		52C9A5AC285F687B005741E2 /* DatePopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C9A5AB285F687B005741E2 /* DatePopupViewController.swift */; };
 		52C9A5AF285F793A005741E2 /* DatePupupViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C9A5AD285F793A005741E2 /* DatePupupViewController.storyboard */; };
+		52C9A5B1285F7BE8005741E2 /* SelectTimeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C9A5B0285F7BE8005741E2 /* SelectTimeViewController.storyboard */; };
+		52C9A5B3285F7C35005741E2 /* SelectTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C9A5B2285F7C35005741E2 /* SelectTimeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		52C9A5A5285F3B62005741E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52C9A5AB285F687B005741E2 /* DatePopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePopupViewController.swift; sourceTree = "<group>"; };
 		52C9A5AE285F793A005741E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ReusablePopups/Base.lproj/DatePupupViewController.storyboard; sourceTree = "<group>"; };
+		52C9A5B0285F7BE8005741E2 /* SelectTimeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectTimeViewController.storyboard; sourceTree = "<group>"; };
+		52C9A5B2285F7C35005741E2 /* SelectTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				52C9A5A5285F3B62005741E2 /* Info.plist */,
 				52C9A5AB285F687B005741E2 /* DatePopupViewController.swift */,
 				52C9A5AD285F793A005741E2 /* DatePupupViewController.storyboard */,
+				52C9A5B0285F7BE8005741E2 /* SelectTimeViewController.storyboard */,
+				52C9A5B2285F7C35005741E2 /* SelectTimeViewController.swift */,
 			);
 			path = ReusablePopups;
 			sourceTree = "<group>";
@@ -132,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52C9A5AF285F793A005741E2 /* DatePupupViewController.storyboard in Resources */,
+				52C9A5B1285F7BE8005741E2 /* SelectTimeViewController.storyboard in Resources */,
 				52C9A5A4285F3B62005741E2 /* LaunchScreen.storyboard in Resources */,
 				52C9A5A1285F3B62005741E2 /* Assets.xcassets in Resources */,
 				52C9A59F285F3B5E005741E2 /* Main.storyboard in Resources */,
@@ -146,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52C9A59C285F3B5E005741E2 /* ViewController.swift in Sources */,
+				52C9A5B3285F7C35005741E2 /* SelectTimeViewController.swift in Sources */,
 				52C9A5AC285F687B005741E2 /* DatePopupViewController.swift in Sources */,
 				52C9A598285F3B5E005741E2 /* AppDelegate.swift in Sources */,
 				52C9A59A285F3B5E005741E2 /* SceneDelegate.swift in Sources */,
