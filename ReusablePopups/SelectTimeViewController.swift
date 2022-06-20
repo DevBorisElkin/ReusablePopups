@@ -9,6 +9,28 @@ import UIKit
 
 class SelectTimeViewController: UIViewController {
 
+    @IBOutlet weak var dateLabel: UILabel!
+    
+    var observer : NSObjectProtocol?
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        observer = NotificationCenter.default.addObserver(forName: .saveDateTime, object: nil, queue: .main) {    notification in
+            let dateViewController = notification.object as! DatePopupViewController
+            self.dateLabel.text = dateViewController.formattedDate
+        }
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        
+        NotificationCenter.default.removeObserver(observer)
+    }
     
     @IBAction func selectTime_TouchUpInside(_ sender: Any) {
         let sb = UIStoryboard(name: "DatePupupViewController", bundle: nil)
@@ -20,11 +42,4 @@ class SelectTimeViewController: UIViewController {
         
         self.present(popup, animated: true)
     }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-    
-
-
 }

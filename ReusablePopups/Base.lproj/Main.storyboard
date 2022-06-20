@@ -78,6 +78,9 @@
                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="First Item" id="bgv-r4-h8E"/>
+                    <connections>
+                        <outlet property="dateLabel" destination="e8u-qo-nAC" id="Z4e-M9-2Tf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wEY-Wg-AAo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
