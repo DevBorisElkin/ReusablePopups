@@ -15,6 +15,16 @@ class ViewController: UIViewController {
         
         //view.backgroundColor = .brown
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if(segue.identifier == "toDatePopupViewControllerSegue"){
+            let popup = segue.destination
+            
+            if var popupViewController = popup as? DatePopupViewController{
+                popupViewController.datePopupChoice = .Date
+            }
+        }
+    }
 }
 
 class SecondViewController: UIViewController {

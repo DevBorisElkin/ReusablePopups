@@ -38,7 +38,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="491-r9-uLh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1178" y="120"/>
+            <point key="canvasLocation" x="892" y="-180"/>
         </scene>
         <!--First Item-->
         <scene sceneID="yJo-od-opr">
@@ -67,7 +67,7 @@
                                             <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <segue destination="h0e-E6-qmF" kind="presentation" id="n70-uw-oa8"/>
+                                            <segue destination="h0e-E6-qmF" kind="presentation" identifier="toDatePopupViewControllerSegue" id="n70-uw-oa8"/>
                                         </connections>
                                     </button>
                                 </subviews>
