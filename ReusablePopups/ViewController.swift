@@ -54,11 +54,25 @@ class ViewController: UIViewController {
 
 class SecondViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
-        //view.backgroundColor = .magenta
+    @IBOutlet weak var dateLabel: UILabel!
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if(segue.identifier == "toDatePopupViewControllerSegue"){
+            let popup = segue.destination
+            
+            var popupViewController = popup as! DatePopupViewController
+            
+            popupViewController.datePopupChoice = .Date
+            popupViewController.onSave = onSave
+            
+//            popupViewController.onSave = { (data) in
+//                self.dateLabel.text = data
+//            }
+        }
+    }
+    
+    func onSave(data : String){
+        dateLabel.text = data
     }
 }
 

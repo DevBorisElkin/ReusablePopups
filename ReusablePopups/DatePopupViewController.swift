@@ -15,6 +15,8 @@ class DatePopupViewController: UIViewController {
     
     var datePopupChoice: DatePopupChoice = .Date
     
+    var onSave : ((_ data: String) -> ())?
+    
     var formattedDate : String {
         let formatter = DateFormatter()
         formatter.dateStyle = .medium
@@ -43,6 +45,10 @@ class DatePopupViewController: UIViewController {
     
     @IBAction func saveDate_TouchUpInside(_ sender: UIButton) {
         NotificationCenter.default.post(name: .saveDateTime, object: self)
+        
+        var formattedResult = datePopupChoice == .Date ? formattedDate : formattedTime
+        onSave?(formattedResult)
+        
         dismiss(animated: true)
     }
     
