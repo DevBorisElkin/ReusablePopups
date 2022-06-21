@@ -16,6 +16,7 @@ class DatePopupViewController: UIViewController {
     var datePopupChoice: DatePopupChoice = .Date
     
     var onSave : ((_ data: String) -> ())?
+    var delegate: PopupDeleate?
     
     var formattedDate : String {
         let formatter = DateFormatter()
@@ -48,6 +49,8 @@ class DatePopupViewController: UIViewController {
         
         var formattedResult = datePopupChoice == .Date ? formattedDate : formattedTime
         onSave?(formattedResult)
+        
+        delegate?.popupValueSelected(value: formattedResult)
         
         dismiss(animated: true)
     }
