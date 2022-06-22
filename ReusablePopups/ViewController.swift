@@ -63,11 +63,11 @@ class SecondViewController: UIViewController {
             var popupViewController = popup as! DatePopupViewController
             
             popupViewController.datePopupChoice = .Date
-            popupViewController.onSave = onSave
+            //popupViewController.onSave = onSave
             
-//            popupViewController.onSave = { (data) in
-//                self.dateLabel.text = data
-//            }
+            popupViewController.onSave = { [weak vc = self](data) in
+                vc?.dateLabel.text = data
+            }
         }
     }
     

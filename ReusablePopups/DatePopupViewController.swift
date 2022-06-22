@@ -16,7 +16,7 @@ class DatePopupViewController: UIViewController {
     var datePopupChoice: DatePopupChoice = .Date
     
     var onSave : ((_ data: String) -> ())?
-    var delegate: PopupDeleate?
+    weak var delegate: PopupDeleate?
     
     var formattedDate : String {
         let formatter = DateFormatter()

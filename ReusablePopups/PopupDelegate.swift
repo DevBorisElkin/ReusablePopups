@@ -7,6 +7,7 @@
 
 import Foundation
 
-protocol PopupDeleate{
+// restrict all inheritors of this protocol to be only reference type
+protocol PopupDeleate : AnyObject{
     func popupValueSelected(value: String)
 }
