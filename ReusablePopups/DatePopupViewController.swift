@@ -60,4 +60,8 @@ class DatePopupViewController: UIViewController {
         case Date
         case Time
     }
+    
+    deinit{
+        print("DatePopupViewController was de-initialized")
+    }
 }

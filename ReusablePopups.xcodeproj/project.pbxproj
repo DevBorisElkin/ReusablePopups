@@ -18,6 +18,7 @@
 		52C9A5B1285F7BE8005741E2 /* SelectTimeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C9A5B0285F7BE8005741E2 /* SelectTimeViewController.storyboard */; };
 		52C9A5B3285F7C35005741E2 /* SelectTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C9A5B2285F7C35005741E2 /* SelectTimeViewController.swift */; };
 		52C9A5B528601AFD005741E2 /* NotificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C9A5B428601AFD005741E2 /* NotificationNameExtension.swift */; };
+		52DF0CE32863C2C300269CE4 /* SecondNotifCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF0CE22863C2C300269CE4 /* SecondNotifCenterViewController.swift */; };
 		52F44FA12862682B00C8BEAF /* PopupDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F44FA02862682B00C8BEAF /* PopupDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		52C9A5B0285F7BE8005741E2 /* SelectTimeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectTimeViewController.storyboard; sourceTree = "<group>"; };
 		52C9A5B2285F7C35005741E2 /* SelectTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeViewController.swift; sourceTree = "<group>"; };
 		52C9A5B428601AFD005741E2 /* NotificationNameExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNameExtension.swift; sourceTree = "<group>"; };
+		52DF0CE22863C2C300269CE4 /* SecondNotifCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondNotifCenterViewController.swift; sourceTree = "<group>"; };
 		52F44FA02862682B00C8BEAF /* PopupDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 				52C9A5B2285F7C35005741E2 /* SelectTimeViewController.swift */,
 				52C9A5B428601AFD005741E2 /* NotificationNameExtension.swift */,
 				52F44FA02862682B00C8BEAF /* PopupDelegate.swift */,
+				52DF0CE22863C2C300269CE4 /* SecondNotifCenterViewController.swift */,
 			);
 			path = ReusablePopups;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				52C9A59C285F3B5E005741E2 /* ViewController.swift in Sources */,
 				52C9A5B3285F7C35005741E2 /* SelectTimeViewController.swift in Sources */,
 				52C9A5AC285F687B005741E2 /* DatePopupViewController.swift in Sources */,
+				52DF0CE32863C2C300269CE4 /* SecondNotifCenterViewController.swift in Sources */,
 				52C9A5B528601AFD005741E2 /* NotificationNameExtension.swift in Sources */,
 				52C9A598285F3B5E005741E2 /* AppDelegate.swift in Sources */,
 				52C9A59A285F3B5E005741E2 /* SceneDelegate.swift in Sources */,
